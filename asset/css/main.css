@@ -1,0 +1,116 @@
+/***----------MAIN CSS-------------***/
+/*
+** FONTS
+*/
+*{box-sizing: border-box;}
+html{font-size: 62.5%;}
+.container{width: 1000px;}
+img{max-width: 100%;}
+h1{font-size: 30px;margin-top: 1.5rem;margin-bottom: 1rem;}
+h2{font-size: 28px;margin-top: 1.5rem;margin-bottom: 1rem;}
+h3{font-size: 26px;margin-top: 1.5rem;margin-bottom: 1rem;}
+h4{font-size: 24px;margin-top: 1.5rem;margin-bottom: 1rem;}
+h5{font-size: 22px;margin-top: 1.5rem;margin-bottom: 1rem;}
+h6{font-size: 20px;margin-top: 1.5rem;margin-bottom: 1rem;}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+.white-panel{background: #FFFFFF!important;}
+.gray-panel{background: #dfdfdf!important;}
+.primary-color{color: #dd9db7;}
+.sub-color{color: #996275;}
+.white-color{color: #FFFFFF;}
+.gray-color{color: #686868;}
+.primary-background{background: #dd9db7!important;}
+.sub-background{background: #996275!important;}
+.inline{display: inline!important;}
+.inline-block{display: inline-block!important;}
+.block {display: block!important;}
+.left-not-pad15{padding-left: 0!important;}
+.right-not-pad15{padding-right: 0!important;}
+.padtop15{padding-top: 1.5rem;}
+.padbot15{padding-bottom: 1.5rem;}
+.margin-top20{margin-top: -15%;}
+.uppercase{text-transform: uppercase;}
+.indent15{text-indent: 3rem;}
+.short {
+    width: 50%;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background: #FFFFFF;
+    color: #000000;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "", sans-serif;
+    font-weight: 400;    
+}
+/*
+** BANNER
+*/
+.banner{
+    background: url(../img/banner/banner-viemtai-01.png) no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    padding: 10% 5% 10% 0;
+    text-align: right;
+}
+.banner-title {margin: 0;}
+.banner-title span{display: block;}
+/*
+** SECTION
+*/
+.hanh-trinh-cua-me article {
+    padding: 1.5rem 0;
+    display: table;    
+}
+.container-article {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+.container-article p{
+    padding: 0 5rem;
+}
+.section-title,.section-title-small {
+    display: table;
+    margin: 1.5rem auto 2rem;
+}
+.section-title-line {
+    height: 2px;
+    width: 100%;
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.first-article .section-title-line.primary-background {
+    margin-left: 2.5rem;
+}
+.block-left {
+    border-left: 0.5rem solid #dd9db7;
+    padding-left: 1rem;
+}
+article.sixth-article .sub-color {
+    padding-left: 20%;
+}
+article.sixth-article .primary-color {
+    padding-right: 20%;
+}
+article.sixth-article .section-title{
+    width: 100%;
+}
+.block-title-icon {
+    background: url(../img/icon/icon-form.png) no-repeat;
+    background-size: auto 85%;
+    display: inline-block;
+    background-position: 0 0;
+    padding-left: 69px;
+    margin-left: 5rem;
+}
+.special-title {
+    padding-left: 5rem;
+}
+.panel-box img{
+    max-width: 120px;
+}
